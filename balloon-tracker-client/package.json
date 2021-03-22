@@ -1,0 +1,17 @@
+{
+  "name": "balloon-tracker-client",
+  "version": "1.0.0",
+  "description": "Weather balloon tracking client for ground receivers",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "Jaden Taylor",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "serialport": "^9.0.1",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0"
+  }
+}
